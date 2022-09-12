@@ -1,4 +1,5 @@
 import React from 'react'
+import Signuphelp from '../components/account/Signuphelp'
 import Currentlive from '../components/cards/Currentlive'
 import Previous from '../components/cards/Previous'
 import Upcomming from '../components/cards/Upcomming'
@@ -16,6 +17,10 @@ const Home = () => {
       
       <div className='mt-[50px] md:mt-[70px]'>
         <Previous />
+      </div>
+
+      <div>
+        <Signuphelp />
       </div>
     </div>
   )
