@@ -7,7 +7,7 @@ import Login from "./pages/Login";
 function App() {
   return (
     <>
-      <div className="px-3 sm:px-0">
+      <div className="">
         <div className="">
           <Nav />
         </div>
