@@ -2,7 +2,8 @@
 import Nav from "./components/nav/Nav";
 import { Routes, Route } from "react-router-dom"
 import Home from "./pages/Home";
-import Login from "./pages/Login";
+import Login from "./pages/Userlogin";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element ={ <Home /> } />
           <Route path='login' element ={ <Login /> } />
         </Routes>
+        <Footer />
       </div>
     </>
   );
