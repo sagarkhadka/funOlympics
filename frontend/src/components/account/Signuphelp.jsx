@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../Button'
+import { Link } from 'react-router-dom'
 
 const Signuphelp = () => {
   return (
@@ -11,7 +12,9 @@ const Signuphelp = () => {
         </div>
         <div className='sm:flex gap-10 items-center'>
             <Button label='Signup Now' />
-            <button className='text-2xl rounded-full uppercase font-bold px-[4rem] outline outline-blue-500 bg-transparent ease-linear duration-100 hover:scale-110 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Login</button>
+            <Link to='login'>
+              <button className='rounded-lg text-lg font-bold px-11 outline outline-blue-500 bg-transparent ease-linear duration-100 hover:scale-110 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Login</button>
+            </Link>
         </div>
       </div>
     </div>
