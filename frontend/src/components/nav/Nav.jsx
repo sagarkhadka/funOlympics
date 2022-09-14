@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <div className='z-50 px-3 xl:px-0 container mx-auto'>
       <div className="py-5 flex justify-between items-center border-b-2 border-zinc-300 w-full sm:px-[5rem] md:px-0">
-        <div className="text-2xl md:text-3xl">
+        <div className="text-2xl md:text-3xl select-none">
           <Link to='/'>
             fun<span className='font-bold text-blue-500 cursor-pointer'>Olympics</span>
           </Link>
@@ -41,7 +41,12 @@ const Nav = () => {
           <li className='border-b-2 pb-3 border-zinc-300 w-full mb-8'>Sports</li>
           <li className='border-b-2 pb-3 border-zinc-300 w-full mb-8'>News</li>
           <li className='border-b-2 pb-3 border-zinc-300 w-full mb-8'>Popular</li>
-          <li className='border-b-2 pb-3 border-zinc-300 w-full'>Live Now</li>
+          <li className='border-b-2 pb-3 border-zinc-300 w-full mb-8'>Live Now</li>
+          <li>
+              <Link to='login'>
+                <Button label='Login' />
+              </Link>
+            </li>
         </ul>
       </div>
     </div>

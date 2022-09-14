@@ -4,15 +4,15 @@ import { AiTwotoneHeart, AiFillPlayCircle, AiFillBell } from 'react-icons/ai'
 const Accountlogin = () => {
   return (
     <div className='container mx-auto px-3 xl:px-0'>
-      <div className='sm:flex mt-11'>
+      <div className='sm:flex mt-3 lg:mt-11'>
         <div className='lg:flex-3 w-full sm:w-3/5 bg-no-repeat bg-cover bg-center rounded-xl relative' style={{ backgroundImage: `url(https://images.unsplash.com/photo-1530549387789-4c1017266635?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8b2x5bXBpY3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60)` }}>
           <div className='w-fill h-full bg-gradient-to-t from-black rounded-xl'>
             <div className='sm:absolute bottom-11 px-4 sm:px-5 lg:px-10 pt-[8rem] pb-2'>
               <h1 className='text-4xl font-extrabold mb-8 text-white'>Welcome to fun<span className='text-blue-500'>Olympics</span></h1>
               <ul>
-                <li className='text-lg text-white mb-3 flex gap-2 '><AiTwotoneHeart size={20} />Personalise your experience with your favourite sports and athletes.</li>
-                <li className='text-lg text-white mb-3 flex gap-2 '><AiFillPlayCircle size={20} />Watch original funOlympics content for free.</li>
-                <li className='text-lg text-white mb-3 flex gap-2'><AiFillBell size={20} />Get exclusive notification about the game into your e-main inbox.</li>
+                <li className='text-lg text-white mb-3 flex gap-2 '><AiTwotoneHeart className='mt-2 w-8' size={20} />Personalise your experience with your favourite sports and athletes.</li>
+                <li className='text-lg text-white mb-3 flex gap-2 '><AiFillPlayCircle className='mt-2 w-8' size={20} />Watch original funOlympics content for free.</li>
+                <li className='text-lg text-white mb-3 flex gap-2'><AiFillBell className='mt-2 ml-1 w-8' size={20} />Get exclusive notification about the game into your e-main inbox.</li>
               </ul>
             </div>
 
@@ -22,7 +22,7 @@ const Accountlogin = () => {
         <div className='lg:flex-1'>
           <div className="flex items-center justify-center px-4 py-10 bg-white sm:px-6 lg:px-8 sm:py-16 lg:py-24">
             <div className="xl:w-full xl:max-w-sm 2xl:max-w-md xl:mx-auto">
-                <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl">Sign in to Celebration</h2>
+                <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl">Sign in for the experience</h2>
                 <p className="mt-2 text-base text-gray-600">Don’t have an account? <span className="font-medium text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline">Create a free account</span></p>
 
                 <form action="#" method="POST" className="mt-8">
@@ -80,7 +80,7 @@ const Accountlogin = () => {
                                 className="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 border border-transparent rounded-md bg-blue-500 focus:outline-none hover:opacity-80 focus:opacity-80"
                             >
                                 Log in
-               :             </button>
+                            </button>
                         </div>
                     </div>
                 </form>
