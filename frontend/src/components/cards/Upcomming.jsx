@@ -10,7 +10,7 @@ const Upcomming = () => {
           {upcomming.map((live, index) => (
             <div key={index} className="drop-shadow-xl bg-white rounded-lg">
               <div className="myCard cursor-pointer relative">
-                <div className="overflow-hidden max-h-[17rem]">
+                <div className="overflow-hidden max-h-[16rem]">
                   <img
                     className="rounded-t-lg object-cover"
                     src={live.img}

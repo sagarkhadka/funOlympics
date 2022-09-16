@@ -8,41 +8,7 @@ const Footer = () => {
           <h1 className='text-white text-4xl'>fun<span className='text-blue-500'>Olympics</span></h1>
         </div>
         
-        <div>
-          <h1 className='text-lg text-gray-400 mb-4 cursor-pointer'>About</h1>
-          <div>
-            <ul>
-              <li className='text-lg text-gray-400 cursor hover:text-white'>Hello</li>
-              <li className='text-lg text-gray-400 cursor hover:text-white'>Hello</li>
-              <li className='text-lg text-gray-400 cursor hover:text-white'>Hello</li>
-              <li className='text-lg text-gray-400 cursor hover:text-white'>Hello</li>
-            </ul>
-          </div>
-        </div>
         
-        <div>
-          <h1 className='text-lg text-gray-400 mb-4 cursor-pointer'>Games</h1>
-          <div>
-            <ul>
-              <li className='text-lg text-gray-400 cursor hover:text-white'>Hello</li>
-              <li className='text-lg text-gray-400 cursor hover:text-white'>Hello</li>
-              <li className='text-lg text-gray-400 cursor hover:text-white'>Hello</li>
-              <li className='text-lg text-gray-400 cursor hover:text-white'>Hello</li>
-            </ul>
-          </div>
-        </div>
-        
-        <div>
-          <h1 className='text-lg text-gray-400 mb-4 cursor-pointer'>News</h1>
-          <div>
-            <ul>
-              <li className='text-lg text-gray-400 cursor hover:text-white'>Hello</li>
-              <li className='text-lg text-gray-400 cursor hover:text-white'>Hello</li>
-              <li className='text-lg text-gray-400 cursor hover:text-white'>Hello</li>
-              <li className='text-lg text-gray-400 cursor hover:text-white'>Hello</li>
-            </ul>
-          </div>
-        </div>
       </div>
       <hr className='bg-gray-500 my-10' />
       <div>

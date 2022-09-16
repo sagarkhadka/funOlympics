@@ -3,6 +3,7 @@ import Signuphelp from '../components/account/Signuphelp'
 import Currentlive from '../components/cards/Currentlive'
 import Previous from '../components/cards/Previous'
 import Upcomming from '../components/cards/Upcomming'
+import Newscard from '../components/news/Newscard'
 
 const Home = () => {
   return (
@@ -25,6 +26,10 @@ const Home = () => {
 
         <div>
           <Signuphelp />
+        </div>
+
+        <div className='my-11'>
+          <Newscard />
         </div>
       </div>
     </>
