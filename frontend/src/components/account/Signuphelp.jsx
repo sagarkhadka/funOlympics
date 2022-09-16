@@ -10,10 +10,10 @@ const Signuphelp = () => {
             <h1 className='text-4xl font-bold text-white mb-5'>Personalize your fun<span className='text-blue-500'>Olympics</span> experience</h1>
             <p className='text-xl'>Stay up to date on your favourite sports and athletes. Get original Olympic news and updates. Get exclusive stories about your favourite Olympic athletes and sports into your e-mail inbox.</p>
         </div>
-        <div className='sm:flex gap-10 items-center'>
+        <div className='sm:flex gap-5 items-center'>
             <Button label='Signup Now' />
             <Link to='login'>
-              <button className='rounded-lg text-lg font-bold px-11 outline outline-blue-500 bg-transparent ease-linear duration-100 hover:scale-110 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75'>Login</button>
+              <button className='px-11 text-base font-semibold text-blue-500 transition-all duration-200 border border-transparent rounded-md bg-white focus:outline-none hover:bg-white hover:scale-[.9]'>Login</button>
             </Link>
         </div>
       </div>

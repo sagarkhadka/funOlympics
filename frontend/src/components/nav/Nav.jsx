@@ -20,7 +20,6 @@ const Nav = () => {
             <li><Link to='/'>Home</Link></li>
             <li>Sports</li>
             <li>News</li>
-            <li>Popular</li>
             <li><Link to='login'>Live Now</Link></li>
             <li>
               <Link to='login'>
@@ -40,7 +39,6 @@ const Nav = () => {
           <li className='border-b-2 pb-3 border-zinc-300 w-full mb-8'>Home</li>
           <li className='border-b-2 pb-3 border-zinc-300 w-full mb-8'>Sports</li>
           <li className='border-b-2 pb-3 border-zinc-300 w-full mb-8'>News</li>
-          <li className='border-b-2 pb-3 border-zinc-300 w-full mb-8'>Popular</li>
           <li className='border-b-2 pb-3 border-zinc-300 w-full mb-8'>Live Now</li>
           <li>
               <Link to='login'>
