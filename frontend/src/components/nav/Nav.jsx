@@ -9,7 +9,7 @@ const Nav = () => {
 
   return (
     <div className='z-50 px-3 xl:px-0 container mx-auto'>
-      <div className="py-5 flex justify-between items-center border-b-2 border-zinc-300 w-full sm:px-[5rem] md:px-0">
+      <div className="py-5 flex justify-between items-center border-b-2 border-zinc-300 w-full md:px-0">
         <div className="text-2xl md:text-3xl select-none">
           <Link to='/'>
             fun<span className='font-bold text-blue-500 cursor-pointer'>Olympics</span>
@@ -19,7 +19,8 @@ const Nav = () => {
           <ul className='hidden lg:flex items-center text-xl gap-8'>
             <li><Link to='/'>Home</Link></li>
             <li>Sports</li>
-            <li>News</li>
+            <li>
+              <Link to='news'>News</Link></li>
             <li><Link to='login'>Live Now</Link></li>
             <li>
               <Link to='login'>

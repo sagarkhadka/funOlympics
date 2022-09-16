@@ -1,9 +1,10 @@
 import React from 'react'
+import Newspagecard from '../components/news/Newspagecard'
 
 const News = () => {
   return (
-    <div>
-      
+    <div className='px-3 xl:px-0'>
+      <Newspagecard />
     </div>
   )
 }
