@@ -1,11 +1,13 @@
 import React from 'react'
+// import './video.mkv'
 
 const Player = () => {
   return (
-    <div className='px-3 xl:px-0'>
-      <div className="container mx-auto mt-5">
-        
-      </div>
+    <div className='container mx-auto flex justify-center'>
+      <video className='mt-5' width={1080} height={720} autoPlay controls>
+        <source src="./video.mp4" />
+        Video not supported
+      </video>
     </div>
   )
 }
