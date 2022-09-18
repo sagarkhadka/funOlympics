@@ -22,7 +22,7 @@ function App() {
           <Route path='/signup' element ={ <Userregister /> } />
           <Route path='/news' element ={ <News /> } />
           <Route path='/news/:id' element ={ <Read /> } />
-          <Route path='/play' element = { <Play /> } />
+          <Route></Route> path='/play' element = { <Play /> } />
         </Routes>
         <Footer />
       </div>
